@@ -137,7 +137,34 @@
             padding: 30px 0px;
             background: var(--pure-white);
             border-bottom: 1px solid var(--stone);
+            background-image: url("./images/img5.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+            color: var(--pure-white);
         }
+
+        /* dark overlay so hero text reads well on top of background image */
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(7,20,33,0.64) 0%, rgba(11,28,52,0.5) 50%, rgba(3,12,20,0.28) 100%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .hero .hero-content {
+            position: relative;
+            z-index: 2;
+            color: var(--pure-white);
+            text-align: center;
+        }
+
+        .hero .hero-content h1 { color: var(--pure-white); }
+        .hero .hero-sub { color: rgba(255,255,255,0.92); }
 
         /* .hero-grid {
             display: grid;
