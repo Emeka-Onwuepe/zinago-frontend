@@ -266,7 +266,7 @@
 
         /* ---------- pillars / trust ---------- */
         .pillars {
-            padding: 4rem 0;
+            padding: 1.5rem 0;
             background: var(--light-navy);
         }
 
@@ -313,7 +313,7 @@
 
         /* ---------- practice areas ---------- */
         .practice {
-            padding: 5rem 0;
+            padding: 1.5rem 0;
             background: var(--navy);
             color: var(--pure-white);
         }
@@ -405,9 +405,14 @@
 
         /* ---------- attorneys ---------- */
         .attorneys {
-            padding: 5rem 0;
+            padding: 1.5rem 0;
             background: var(--pure-white);
         }
+
+        .attorneys h2{
+            color: var(--deep-navy);
+        }
+
 
         .attorney-grid {
             display: grid;
@@ -679,5 +684,7 @@
             height: auto;
         }
             .hero-content h1 { font-size: 1.5rem; }
+            .section-header h2 {
+            font-size: 1.2rem}
         }
     
