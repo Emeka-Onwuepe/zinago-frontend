@@ -160,7 +160,7 @@
             position: relative;
             z-index: 2;
             color: var(--pure-white);
-            text-align: justify;
+            text-align: left;
         }
 
         .hero .hero-content h1 { color: var(--pure-white); }
