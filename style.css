@@ -31,7 +31,7 @@
 
         body {
             font-family: var(--font-sans);
-            background-color: var(--off-white);
+            background-color: var(--pure-white);
             color: var(--charcoal);
             line-height: 1.6;
             font-weight: 300;
@@ -666,6 +666,46 @@
             border-top: 1px solid rgba(255,255,255,0.1);
         }
 
+        /* Back to top button */
+        #back-to-top {
+            position: fixed;
+            right: 20px;
+            bottom: 24px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--navy);
+            color: var(--pure-white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 18px rgba(2,12,26,0.18);
+            cursor: pointer;
+            transition: opacity 0.25s ease, transform 0.2s ease, background 0.2s ease;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 220;
+            border: 2px solid transparent;
+        }
+
+        #back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        #back-to-top:hover,
+        #back-to-top:focus {
+            background: var(--gold);
+            color: var(--navy);
+            outline: none;
+            border-color: rgba(0,0,0,0.06);
+        }
+
+        @media (max-width: 576px) {
+            #back-to-top { right: 12px; bottom: 18px; width:40px; height:40px; }
+        }
+
         /* ---------- responsive ---------- */
         @media (max-width: 992px) {
              .contact-grid, .footer-grid {
@@ -691,7 +731,7 @@
             width:95px;
             height: auto;
         }
-            .hero-content h1 { font-size: 1.5rem; }
+            .hero-content h1,.page-title h2 ,.section-headers h3  { font-size: 1.5rem; }
             .section-header h2 {
             font-size: 1.6rem}
         }
