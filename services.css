@@ -25,7 +25,7 @@ h1, h2, h3, h4 {
         }
 
         .logo-area h1 {
-            font-size: 2.3rem;
+            /* font-size: 2.3rem; */
             font-weight: 600;
             letter-spacing: -0.5px;
             /* color: #0b273f; */
@@ -64,7 +64,7 @@ h1, h2, h3, h4 {
         }
 
         .page-title h2 {
-            font-size: 2.8rem;
+            /* font-size: 2.8rem; */
             font-weight: 500;
             /* color: #0a233a; */
             letter-spacing: -0.02em;
@@ -115,7 +115,7 @@ h1, h2, h3, h4 {
         }
 
         .section-headers h3 {
-            font-size: 2.2rem;
+            /* font-size: 2.2rem; */
             font-weight: 500;
             /* color: #0b273f; */
         }
@@ -142,12 +142,12 @@ h1, h2, h3, h4 {
             margin-bottom: 0;
         }
 
-        .writeup strong {
-            /* color: #0b273f; */
-        }
+        /* .writeup strong {
+            color: #0b273f;
+        } */
 
         .service-details h4 {
-            font-size: 1.3rem;
+            /* font-size: 1.3rem; */
             font-weight: 600;
             /* color: #1d3d5c; */
             margin-bottom: 1.2rem;

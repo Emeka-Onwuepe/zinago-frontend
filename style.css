@@ -45,6 +45,24 @@
             color: var(--navy);
         }
 
+        h1{
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 1.8rem
+        }
+        h3{
+            font-size: 1.6rem;
+        }
+        h4,.pillar-card h3{
+            font-size: 1.4rem;
+        }
+
+        .practice-card h3{
+            font-size: 1.3rem;
+        }
+
+
         a {
             text-decoration: none;
             color: inherit;
@@ -178,7 +196,7 @@
             /* font-size: 3.4rem; */
             line-height: 1.2;
             margin-bottom: 1.5rem;
-            font-size: 2.5rem;
+            /* font-size: 2.5rem; */
             color: var(--light-navy);
             text-align: center;
         }
@@ -239,7 +257,7 @@
 
         .btn-primary:hover {
             background-color: transparent;
-            color: var(--navy) !important;
+            color: var(--muted-white) !important;
         }
 
         .btn-outline {
@@ -306,8 +324,8 @@
             margin-bottom: 1rem;
         }
 
-        .pillar-card h3 {
-            font-size: 1.5rem;
+        .pillar-card h3{
+            /* font-size: 1.5rem; */
             margin-bottom: 0.5rem;
         }
 
@@ -326,7 +344,7 @@
 
         .section-header h2 {
             color: var(--pure-white);
-            font-size: 2.6rem;
+            /* font-size: 2rem; */
             position: relative;
             display: inline-block;
             margin-bottom: 1rem;
@@ -341,6 +359,23 @@
             width: 70px;
             height: 3px;
             background: var(--gold);
+        }
+
+        .about_us{
+            text-align: justify;
+            margin: 0 auto;
+             /* color: var(--muted-white); */
+             /* font-size: 1.1rem; */
+             padding-top: 1.3rem;
+             padding-bottom: 1rem;
+        }
+        .about_us p{
+            margin-bottom: 1.2rem;
+        }
+        .about_us h2{
+            margin-bottom: 0.8rem;
+            text-align: center;
+            /* font-size: 1.5rem; */
         }
 
         .practice-grid {
@@ -383,7 +418,7 @@
         }
 
         .practice-card h3 {
-            font-size: 1.5rem;
+            /* font-size: 1.5rem; */
             margin-bottom: 0.8rem;
         }
 
@@ -443,12 +478,12 @@
             background: #c0b7a8; /* placeholder fallback */
         }
 
-        .img1 { background: url('images/nancy2.jpeg') center/cover; }
+        .img1 { background: url('images/nancy3.jpeg') center/cover; }
         .img2 { background: url('https://images.pexels.com/photos/5674595/pexels-photo-5674595.jpeg?auto=compress&cs=tinysrgb&w=600') center/cover; }
         .img3 { background: url('https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600') center/cover; }
 
         .attorney-card h3 {
-            font-size: 1.6rem;
+            /* font-size: 1.6rem; */
             margin-bottom: 0.2rem;
         }
 
@@ -521,7 +556,7 @@
 
         .contact-info h3 {
             color: var(--light-gold);
-            font-size: 1.9rem;
+            /* font-size: 1.9rem; */
             margin-bottom: 1.2rem;
         }
 
@@ -605,7 +640,7 @@
 
         .footer-logo span {
             font-family: var(--font-serif);
-            font-size: 1.8rem;
+            font-size: 1.2rem;
             font-weight: 700;
             color: white;
         }
@@ -618,7 +653,7 @@
         .footer-links h4 {
             color: white;
             margin-bottom: 1rem;
-            font-size: 1.2rem;
+            /* font-size: 1.2rem; */
         }
 
         .footer-links ul {
@@ -730,9 +765,27 @@
             .logo img{
             width:95px;
             height: auto;
-        }
-            .hero-content h1,.page-title h2 ,.section-headers h3  { font-size: 1.5rem; }
+            }
+            /* .hero-content h1,.page-title h2 ,.section-headers h3  { font-size: 1.2rem; }
             .section-header h2 {
-            font-size: 1.6rem}
+            font-size: 1.3rem} */
+
+        h1{
+            font-size: 1.8rem;
+        }
+        h2{
+            font-size: 1.6rem
+        }
+        h3{
+            font-size: 1.4rem;
+        }
+        h4,.pillar-card h3{
+            font-size: 1.2rem;
+        }
+
+        .practice-card h3{
+            font-size: 1.1rem;
+        }
+
         }
     

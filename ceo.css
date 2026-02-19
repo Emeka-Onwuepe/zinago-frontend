@@ -55,7 +55,7 @@
         }
 
         .ceo-name {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 700;
             line-height: 1.1;
             color: #0a2538;                /* dark navy, matches body but for contrast on light card */
@@ -72,7 +72,13 @@
             gap: 0.5rem 1rem;
             font-family: 'Inter', sans-serif;
         }
+        
+        .sub {
+	                color: #fffc;
+	                font-size: 1.1rem;
+                }
 
+       
         .badge {
             background: #e7ddd2;
             padding: 0.2rem 0.8rem;
