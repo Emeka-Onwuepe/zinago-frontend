@@ -274,13 +274,13 @@
             color: white !important;
         }
 
-        .hero-image {
+        /* .hero-image {
             background: url('https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover no-repeat;
             height: 400px;
             border-radius: 12px;
             box-shadow: 20px 20px 0 var(--gold);
-            background-color: #dad3c1; /* fallback */
-        }
+            background-color: #dad3c1; 
+        } */
 
         /* ---------- pillars / trust ---------- */
         .pillars {
@@ -376,6 +376,35 @@
             margin-bottom: 0.8rem;
             text-align: center;
             /* font-size: 1.5rem; */
+        }
+
+        .call-to-action{
+            /* background-color: var(--deep-navy); */
+            /* color: var(--off-white); */
+            padding-bottom: 30px;            
+            border: 1px dotted var(--gold);
+            border-top: 20px solid var(--off-white);
+
+
+        }
+        /* .call-to-action h2{
+            color: white;
+            border-bottom: 1px dotted var(--gold);
+        } */
+
+        .call-to-action .btn-outline {
+            border: 1px solid var(--off-white);
+            color: var(--off-white);
+            background-color: var(--light-navy);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--deep-navy);
+            color: white !important;
+        }
+
+        .call-to-action .btn-group {
+	        justify-content: center;
         }
 
         .practice-grid {
