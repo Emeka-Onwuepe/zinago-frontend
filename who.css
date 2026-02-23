@@ -2,7 +2,6 @@
       /* max-width: 880px; */
       margin: 0 auto;
       background: #ffffff;
-      padding: 3rem 3.5rem;
       border-radius: 20px;
       box-shadow: 0 20px 35px -8px rgba(0, 20, 30, 0.15);
       border: 1px solid #e9edf4;
@@ -61,8 +60,8 @@
     }
 
     /* mobile adaptation */
-    @media (max-width: 600px) {
-      /* body { margin: 1rem; } */
+    /* @media (max-width: 600px) {
+      body { margin: 1rem; }
       .who-we-are { padding: 2rem 1.5rem; }
-      /* .who-we-are h2 { font-size: 2rem; } */
-    }
+      .who-we-are h2 { font-size: 2rem; }
+    } */
