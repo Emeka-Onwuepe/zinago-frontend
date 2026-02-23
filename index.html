@@ -49,9 +49,12 @@
     />
     <!-- Font Awesome 6 (free) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <!-- Google Fonts: Playfair + Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="who.css">
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- header & navigation -->
@@ -118,7 +121,31 @@
         </div>
     </section>
 
-    <section class="about_us">
+    <section class="who-we-are about_us" aria-labelledby="who-heading">
+    <div class="container">
+
+    <h2 id="who-heading">Who are we</h2>
+
+    <p><strong>Zinago Law Practice</strong> is a specialist Nigerian law firm providing strategic, research-driven and solution-oriented legal services to individuals, businesses, investors and institutions.</p>
+
+    <p>The Firm focuses on employment and labour law, corporate and commercial practice, regulatory compliance, immigration and expatriate advisory, dispute resolution and policy-oriented legal research.</p>
+
+    <p>Our practice is grounded in rigorous legal analysis, strong ethical standards and a deep understanding of business and regulatory environments. We support our clients in navigating complex legal frameworks, managing institutional risk, strengthening corporate governance and achieving sustainable organisational growth.</p>
+
+    <p>Where necessary, Zinago Law Practice works in strategic collaboration with <strong>Zinago HR Solutions</strong>, an independent human resource consultancy, to deliver integrated legal and organisational advisory services.</p>
+
+    <p>Led by experienced legal and policy professionals with strong academic and practical backgrounds, the Firm is committed to professional excellence, client confidentiality and ethical, client-focused service delivery. We provide clear, practical, and forward-looking legal solutions that protect client interests, enhance operational efficiency and build long-term value.</p>
+
+    <!-- special formatting for the final sentence (as per write-up: anticipate, design, partner) -->
+    <div class="anticipate-line">
+      <em>At Zinago, we do not merely respond to legal problems — we anticipate them, design preventive strategies, and partner with our clients to build resilient and compliant organisations.</em>
+    </div>
+    <div class="container">
+
+  </section>
+
+
+    <!-- <section class="about_us">
         <div class="container">
                 <h2>Who Are We</h2>
             <div>
@@ -136,7 +163,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     
     <section class="about_us call-to-action">
@@ -162,7 +189,169 @@
                 <h2>Core Practice Areas</h2>
                 <p>We provide comprehensive legal services across business and personal matters, built on a foundation of excellence.</p>
             </div>
-            <div class="practice-grid">
+
+            <!-- interactive grid – headings only, descriptions hidden until click -->
+    <div class="practice-grid" id="practiceGrid">
+        <!-- 1. Employment & Labour Law -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-briefcase"></i></div>
+                <h3>Employment & Labour Law</h3>
+            </div>
+            <!-- preview-text completely removed -->
+            <div class="full-description">
+                <p>Expert advice on employment relationships, contracts, terminations, disputes, and litigation support for employers and employees. We handle workplace investigations, negotiations, and CCMA representation.</p>
+                <a href="./services.html#ell" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 2. Corporate & Regulatory Compliance -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-balance-scale"></i></div>
+                <h3>Corporate & Regulatory Compliance</h3>
+            </div>
+            <div class="full-description">
+                <p>Advisory on governance, compliance, and risk management, including statutory filings, audits, licenses, and data protection. We assist with regulatory authority engagements and internal policy drafting.</p>
+                <a href="./services.html#crc" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 3. Tax Law & Regulatory Advisory -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-money-bill-alt"></i></div>
+                <h3>Tax Law & Regulatory Advisory</h3>
+            </div>
+            <div class="full-description">
+                <p>Expert advice on tax structuring, statutory tax compliance, advisory on personal and corporate taxation, regulatory engagement, and support on tax disputes and assessments. We also represent clients before tax tribunals.</p>
+                <a href="./services.html#tlra" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 4. Investment Entry & Regulatory Advisory -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Investment Entry & Regulatory Advisory</h3>
+            </div>
+            <div class="full-description">
+                <p>Advisory on investment structuring, regulatory approvals, compliance sequencing, and advisory on sector-specific requirements (banking, insurance, oil & gas, tech). We guide foreign investors through entry barriers.</p>
+                <a href="./services.html#iera" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 5. HR Compliance & Workplace Governance -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-clipboard-list"></i></div>
+                <h3>HR Compliance & Workplace Governance</h3>
+            </div>
+            <div class="full-description">
+                <p>HR audits, policy drafting, governance frameworks, and risk management. We help organisations build ethical, legally sound human resource structures and internal grievance mechanisms.</p>
+                <a href="./services.html#hrcwg" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 6. Mediation & ADR -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-handshake"></i></div>
+                <h3>Mediation & Alternative Dispute Resolution (ADR)</h3>
+            </div>
+            <div class="full-description">
+                <p>Dispute prevention and resolution services for employment and workplace disputes. Our mediators are accredited and focus on preserving commercial relationships while resolving conflict efficiently.</p>
+                <a href="./services.html#madr" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 7. Corporate & Business Registration -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-file-contract"></i></div>
+                <h3>Corporate & Business Registration</h3>
+            </div>
+            <div class="full-description">
+                <p>Company registration, post-incorporation docs, and legal advisory for startups and SMEs. We handle CAC registrations, business permits, and share structuring for new ventures.</p>
+                <a href="./services.html#cbr" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 8. Property Law & Real Estate Advisory -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-house"></i></div>
+                <h3>Property Law & Real Estate Advisory</h3>
+            </div>
+            <div class="full-description">
+                <p>Due diligence, title review, and advisory on property transactions (no agency services). We assist with land verification, deed preparation, and property dispute avoidance.</p>
+                <a href="./services.html#plrea" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 9. Immigration & Business Mobility -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-plane"></i></div>
+                <h3>Immigration & Business Mobility</h3>
+            </div>
+            <div class="full-description">
+                <p>Work permits, immigration compliance, and advisory for individuals and organisations. We handle residence permits, business visas, and expatriate quota applications.</p>
+                <a href="./services.html#ibm" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 10. Family & Adoption Law -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-users"></i></div>
+                <h3>Family & Adoption Law</h3>
+            </div>
+            <div class="full-description">
+                <p>Adoption, guardianship, and family law services with confidentiality and sensitivity. We guide families through adoption proceedings, child custody, and marital agreements.</p>
+                <a href="./services.html#fal" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 11. Training & Capacity Building -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>Training & Capacity Building</h3>
+            </div>
+            <div class="full-description">
+                <p>Customised training on employment law, HR governance, compliance, and dispute prevention. In-house workshops, webinars, and certification courses for corporate teams.</p>
+                <a href="./services.html#tcb" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+
+        <!-- 12. Cross-Border Collaboration (full text preserved) -->
+        <div class="practice-card">
+            <div class="card-header-compact">
+                <div class="practice-icon"><i class="fas fa-globe"></i></div>
+                <h3>Cross-Border Collaboration</h3>
+            </div>
+            <div class="full-description">
+                <p>Foreign law advice, where required, is provided by such collaborating practitioners in their respective jurisdictions. Zinago Law Practice remains responsible for Nigerian law advisory and coordination, subject to agreed engagement terms.</p>
+                <a href="./services.html#cbc" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="expand-hint"><i class="fas fa-plus-circle"></i></div>
+        </div>
+    </div>
+
+           
+            <!-- <div class="practice-grid">
                 <div class="practice-card">
                     <div class="practice-icon"><i class="fas fa-briefcase"></i></div>
                     <h3>Employment & Labour Law</h3>
@@ -241,7 +430,7 @@
                         subject to agreed engagement terms.</p>
                     <a href="./services.html#cbc" class="practice-link">Learn more <i class="fas fa-arrow-right"></i></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -347,7 +536,7 @@
                     <span>Zinago Law Practice</span>
                     <p>Excellence across practice areas, rooted in integrity and relentless advocacy.</p>
                 </div>
-                <div class="footer-links">
+                <!-- <div class="footer-links">
                     <h4>Your practice</h4>
                     <ul>
                         <li><a href="#">Business litigation</a></li>
@@ -364,7 +553,7 @@
                         <li><a href="#">Pro bono</a></li>
                         <li><a href="#">News & events</a></li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="newsletter">
                     <h4>Insights</h4>
                     <p>Subscribe to legal briefs and firm news.</p>

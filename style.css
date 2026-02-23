@@ -407,65 +407,7 @@
 	        justify-content: center;
         }
 
-        .practice-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .practice-card {
-            background: var(--pure-white);
-            color: var(--charcoal);
-            padding: 2rem 1.5rem;
-            border-radius: 12px;
-            border-bottom: 4px solid transparent;
-            transition: var(--transition);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.02);
-        }
-
-        .practice-card:hover {
-            border-bottom-color: var(--gold);
-            transform: scale(1.01);
-            box-shadow: 0 15px 30px rgba(198,161,91,0.08);
-        }
-
-        .practice-icon {
-            background: var(--light-gold);
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .practice-icon i {
-            font-size: 1.8rem;
-            color: var(--navy);
-        }
-
-        .practice-card h3 {
-            /* font-size: 1.5rem; */
-            margin-bottom: 0.8rem;
-        }
-
-        .practice-link {
-            display: inline-block;
-            margin-top: 1.2rem;
-            color: var(--gold);
-            font-weight: 600;
-        }
-
-        .practice-link i {
-            transition: var(--transition);
-            font-size: 0.85rem;
-        }
-
-        .practice-link:hover i {
-            transform: translateX(6px);
-        }
+       
 
         /* ---------- attorneys ---------- */
         .attorneys {
@@ -660,7 +602,7 @@
 
         .footer-grid {
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            grid-template-columns: 2fr 1.5fr;
             gap: 2.5rem;
             margin-bottom: 2.5rem;
         }
@@ -711,6 +653,11 @@
             padding: 0.8rem 1.2rem;
             border: none;
             font-family: var(--font-sans);
+        }
+
+        .newsletter h4{
+            color: white;
+            font-size: 1.2rem;
         }
 
         .newsletter-input button {
